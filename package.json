@@ -1,0 +1,43 @@
+{
+  "author": "Giovanni De Giorgio",
+  "description": "A fast Bun validation library",
+  "repository": "https://github.com/gdegiorgio/watchguard",
+  "name": "watchguard-js",
+  "version": "0.0.0",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^11.0.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.0.6",
+    "@semantic-release/npm": "^11.0.0",
+    "@semantic-release/release-notes-generator": "^12.0.0",
+    "bun-types": "latest",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^22.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "release": {
+    "branches": ["main"],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ]
+  },
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "license": "MIT"
+}
