@@ -3,7 +3,7 @@
   "description": "A fast Bun validation library",
   "repository": "https://github.com/gdegiorgio/watchguard",
   "name": "watchguard-js",
-  "version": "1.0.1",
+  "version": "0.0.0",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {

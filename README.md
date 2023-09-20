@@ -1,15 +1,11 @@
-# watchguard
+# Watchguard
 
-To install dependencies:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png" width="200" />
+</p>
 
-```bash
-bun install
-```
+> :warning: **This project is currently under development and not ready for a production environment**
 
-To run:
+Watchguard is a fast validation library for [Bun](https://github.com/oven-sh/bun) runtime. It is heavily influenced by [Joi](https://github.com/hapijs/joi) and [fluent-json-schema](https://github.com/fastify/fluent-json-schema)
 
-```bash
-bun run index.ts
-```
 
-This project was created using `bun init` in bun v1.0.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
