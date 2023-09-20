@@ -11,15 +11,22 @@ Watchguard is a fast validation library for [Bun](https://github.com/oven-sh/bun
 ## Project roadmap
 - [ ] Default schema
     - [ ] values 
+    - [ ] not
     - [ ] optional
     - [ ] required
     - [ ] message
+    - [ ] not
+    - [ ] or
 - [ ] String schema
+    - [ ] alphanum
     - [ ] regex
     - [ ] lenght 
     - [ ] min
     - [ ] max
     - [ ] like
+    - [ ] email
+    - [ ] ip
+    - [ ]
 - [ ] Number schema
     - [ ] range
     - [ ] positive
@@ -29,5 +36,8 @@ Watchguard is a fast validation library for [Bun](https://github.com/oven-sh/bun
 - [ ] Array schema
     - [ ] length
     - [ ] contains
-- [ ] Email schema
-- [ ] Ip Schema
+- [ ] Date schema
+    - [ ] format
+    - [ ] ISO8601
+    - [ ] RFC1123
+    - [ ] unix 
