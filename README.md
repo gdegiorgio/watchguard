@@ -13,6 +13,7 @@ Watchguard is a fast validation library for [Bun](https://github.com/oven-sh/bun
     - [ ] values 
     - [ ] optional
     - [ ] required
+    - [ ] message
 - [ ] String schema
     - [ ] regex
     - [ ] lenght 
