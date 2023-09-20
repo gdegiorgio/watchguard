@@ -8,4 +8,25 @@
 
 Watchguard is a fast validation library for [Bun](https://github.com/oven-sh/bun) runtime. It is heavily influenced by [Joi](https://github.com/hapijs/joi) and [fluent-json-schema](https://github.com/fastify/fluent-json-schema)
 
-
+## Project roadmap
+- [ ] Default schema
+    - [ ] values 
+    - [ ] optional
+    - [ ] required
+- [ ] String schema
+    - [ ] regex
+    - [ ] lenght 
+    - [ ] min
+    - [ ] max
+    - [ ] like
+- [ ] Number schema
+    - [ ] range
+    - [ ] positive
+    - [ ] negative
+    - [ ] int
+    - [ ] float
+- [ ] Array schema
+    - [ ] length
+    - [ ] contains
+- [ ] Email schema
+- [ ] Ip Schema
