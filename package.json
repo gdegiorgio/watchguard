@@ -2,7 +2,7 @@
   "author": "Giovanni De Giorgio",
   "description": "A fast Bun validation library",
   "repository": "https://github.com/gdegiorgio/watchguard",
-  "name": "watchguard-js",
+  "name": "watchguardjs",
   "version": "1.1.0",
   "module": "index.ts",
   "type": "module",

@@ -21,23 +21,21 @@ For example, if you want to change something in this file your branch name shoul
 
 You can also run `bun run commit` for getting help with commit writing
 ## Project roadmap
-- [ ] Default schema
-    - [ ] values 
+- [ ] Any validator
+    - [x] eq 
     - [ ] not
-    - [ ] optional
-    - [ ] required
-    - [ ] message
-    - [ ] not
+    - [ ] and
     - [ ] or
-- [ ] String schema
-    - [ ] alphanum
-    - [ ] regex
-    - [ ] lenght 
-    - [ ] min
-    - [ ] max
-    - [ ] like
-    - [ ] email
-    - [ ] ip
+- [ ] String validator
+    - [x] alphanum
+    - [x] pattern
+    - [x] lenght 
+    - [x] min
+    - [x] max
+    - [x] includes
+    - [x] email
+    - [x] ip
+    - [x] url
 - [ ] Number schema
     - [ ] range
     - [ ] positive
